@@ -7,6 +7,7 @@ import Tailwind from '../assets/tailwind.png';
 import Python from '../assets/python.png'
 import Aws from "../assets/aws.png";
 import scikit from "../assets/scikitlearn.png";
+import Typescript from '../assets/tssvg.png'
 
 const Skills = () => {
   return (
@@ -56,8 +57,8 @@ const Skills = () => {
         </div>
 
         <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 ' >
-            <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-            <p className='my-4'>GitHub</p>
+            <img className='w-20 mx-auto' src={Typescript} alt="HTML icon" />
+            <p className='my-4'>TypeScript</p>
         </div>
      
       </div>
